@@ -1,0 +1,24 @@
+@relation TrainData
+
+@attribute Acquirer {ICICI,PNB,SBI,Kotak,J&K ,IDFC,HDFC,AU,BOB,Yes }
+@attribute Issuer {ICICI,PNB,SBI,Kotak,J&K ,IDFC,HDFC,AU,BOB,Yes }
+@attribute Time {8AM-4PM,12AM-8AM,4PM-12AM}
+@attribute Transaction_Type {3ds,y3ds,Si}
+@attribute Network_Type {visa,mastercard,rupay}
+@attribute Card_Type {Debit,Credit}
+@attribute Auth_Status {success,failure}
+
+@data
+
+Kotak,ICICI,12AM-8AM,y3ds,visa,Credit,failure
+Yes,ICICI,12AM-8AM,y3ds,visa,Credit,failure
+BOB,ICICI,12AM-8AM,y3ds,visa,Credit,failure
+ICICI,ICICI,12AM-8AM,y3ds,visa,Credit,failure
+HDFC,ICICI,12AM-8AM,y3ds,visa,Credit,failure
+IDFC,ICICI,12AM-8AM,y3ds,visa,Credit,failure
+AU,ICICI,12AM-8AM,y3ds,visa,Credit,failure
+PNB,ICICI,12AM-8AM,y3ds,visa,Credit,failure
+SBI,ICICI,12AM-8AM,y3ds,visa,Credit,failure
+J&K,ICICI,12AM-8AM,y3ds,visa,Credit,failure
+Kotak,ICICI,12AM-8AM,y3ds,visa,Credit,failure
+
